@@ -19,10 +19,6 @@ body {
 }
 
 /* header区域 */
-header {
-
-}
-
 header .header-top {
     /* 版心宽度 */
     width: 1199px;
@@ -88,6 +84,7 @@ header .header-top .tool .r2 {
     width: 264px;
     height: 28px;
     border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: 4px;
 }
 
 header .header-top .tool .r2 input {
@@ -97,6 +94,7 @@ header .header-top .tool .r2 input {
     /* 去掉边框线 */
     border: none;
     padding-left: 20px;
+    margin-left: 4px;
     /* 去掉鼠标点击时外围线 */
     outline: none;
 }
@@ -105,7 +103,7 @@ header .header-top .tool .r2 button {
     float: left;
     width: 20px;
     height: 20px;
-    margin: 0 4px;
+    margin: 0 1px;
     position: absolute;
     top: 50%;
     margin-top: -10px;
@@ -187,6 +185,7 @@ header .main-nav ul li a:hover {
     width: 56px;
     height: 64px;
     background-color: rgba(0, 0, 0, .3);
+    border-radius: 6px;
 }
 
 .banner .center .right-btn {
@@ -197,6 +196,7 @@ header .main-nav ul li a:hover {
     width: 56px;
     height: 64px;
     background-color: rgba(0, 0, 0, .3);
+    border-radius: 6px;
 }
 
 .banner .center h2 {
@@ -227,6 +227,7 @@ header .main-nav ul li a:hover {
     height: 12px;
     background-color: white;
     margin-right: 10px;
+    border-radius: 4px;
 }
 
 /* 最后一个没有margin */
@@ -240,6 +241,11 @@ header .main-nav ul li a:hover {
 }
 
 /* 内容部分 */
+.content h3 {
+    border-left: 8px solid #00978E;
+    padding-left: 6px;
+}
+
 .content .useful-links {
     width: 906px;
     height: 148px;
@@ -295,7 +301,6 @@ header .main-nav ul li a:hover {
     font-weight: normal;
     margin-bottom: 27px;
     width: 64px;
-    height: 21px;
     font-size: 16px;
 }
 
@@ -348,7 +353,6 @@ header .main-nav ul li a:hover {
     font-weight: normal;
     margin-bottom: 16px;
     width: 64px;
-    height: 21px;
     font-size: 16px;
 }
 
@@ -455,6 +459,7 @@ header .main-nav ul li a:hover {
     line-height: 34px;
     margin-right: 21px;
     margin-bottom: 25px;
+    border-radius: 4px;
 }
 
 .content .dep-info .center .dep-content .col li:nth-child(2n) {
