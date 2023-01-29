@@ -39,6 +39,9 @@ header .header-top .logo h1 {
     height: 63px;
     color: #00978E;
     font-size: 48px;
+    background-image: url(../images/logo.png);
+    /* 将段首缩进设置为负数，可以隐藏文字 */
+    text-indent: -999em;
 }
 
 header .header-top .tool {
@@ -184,8 +187,12 @@ header .main-nav ul li a:hover {
     margin-top: -32px;
     width: 56px;
     height: 64px;
-    background-color: rgba(0, 0, 0, .3);
+    background: url(../images/icons.png) no-repeat -42px -35px;
     border-radius: 6px;
+}
+
+.banner .center .left-btn:hover {
+    background-position: -160px -35px;
 }
 
 .banner .center .right-btn {
@@ -195,8 +202,12 @@ header .main-nav ul li a:hover {
     margin-top: -32px;
     width: 56px;
     height: 64px;
-    background-color: rgba(0, 0, 0, .3);
+    background: url(../images/icons.png) no-repeat -42px -125px;
     border-radius: 6px;
+}
+
+.banner .center .right-btn:hover {
+    background-position: -160px -125px;
 }
 
 .banner .center h2 {
